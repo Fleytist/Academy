@@ -1,19 +1,49 @@
-.main {
+.lineyg {
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    background: -webkit-linear-gradient(red, blue)
+    }
+.hello {
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    background: radial-gradient(rgb(208, 255, 0), rgb(0, 255, 170));
+}
+.dd {
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.ddd{
+    text-align: center;
+}
+
+
+
+.header{
+    float: left;
     border: 5px solid black;
-    color: black;
-}
-.in{
-margin-left: 50px;
-margin-right: 50px; 
-padding: 50px;
-border: 5px solid black;
-background: pink;
-}
-img {
+    text-align: center;
+    width: 110px;
     height: 300px;
-    width: 300px;
-    border: 5px solid purple;
 }
-p {
-    background: brown;
+.sitebar{
+    float: left;
+    border: 5px solid black; 
+    height: 300px;
+    width: 100px;
+    
+
+}
+.main {
+    float: right;
+    border: 5px solid #000000;
+    width: 1000px;
+    height: 300px;
+}
+.footer {
+    border: 5px solid black;
+}
+.bb {
+    box-sizing: border-box;
 }
